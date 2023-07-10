@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenRadSuanyIngris.View.PageResultado">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding Nombres}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                  x:Name="lbnombre"/>
+
+            <Label Text="{Binding Apellidos}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                 x:Name="lbapellido"/> 
+
+            <Label Text="{Binding Edad}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                  x:Name="lbedad"/> 
+
+            <Label Text="{Binding Pais}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   x:Name="lbpais"/>
+
+            <Label Text="{Binding Nota}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                  x:Name="lbnota" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

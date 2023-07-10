@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenRadSuanyIngris.View.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+           <Image x:Name="Imagen" WidthRequest="50" HeightRequest="200" BackgroundColor="AliceBlue" />
+
+            <Button x:Name="btnImagen" Text="Capturar imagen" Clicked="btnImagen_Clicked" />
+            <Entry x:Name="Nombres" Placeholder="Ingrese su nombre" />
+
+            <Entry x:Name="Apellidos" Placeholder="Ingrese su apellido" />
+
+            <Entry x:Name="Edad" Placeholder="Ingrese su Edad"/>
+
+            <Entry x:Name="Pais" Placeholder="Ingrese su Pais"  />
+            <Entry x:Name="Nota" Placeholder="Ingrese una Nota"  />
+            <Button  x:Name="btnproceso" Text="Salvar Contacto" Clicked="btnproceso_Clicked"  />
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
