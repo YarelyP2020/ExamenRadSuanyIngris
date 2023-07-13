@@ -4,19 +4,35 @@
              x:Class="ExamenRadSuanyIngris.View.Page1">
     <ContentPage.Content>
         <StackLayout>
-           <Image x:Name="Imagen" WidthRequest="50" HeightRequest="200" BackgroundColor="AliceBlue" />
+         
+            <Image x:Name="Imagen" WidthRequest="50" HeightRequest="200" BackgroundColor="AliceBlue" />
 
             <Button x:Name="btnImagen" Text="Capturar imagen" Clicked="btnImagen_Clicked" />
-            <Entry x:Name="Nombres" Placeholder="Ingrese su nombre" />
+            <Entry x:Name="Nombres" Placeholder="Ingrese su Nombre" />
 
-            <Entry x:Name="Apellidos" Placeholder="Ingrese su apellido" />
+            <Entry x:Name="Apellidos" Placeholder="Ingrese su Apellido" />
 
-            <Entry x:Name="Edad" Placeholder="Ingrese su Edad"/>
+            <Entry x:Name="Edad" Placeholder="Ingrese su Edad" Keyboard="Numeric" />
 
-            <Entry x:Name="Pais" Placeholder="Ingrese su Pais"  />
+            <Picker x:Name="Pais" Title="Ingrese su Pais"  >
+                <Picker.Items>
+                    <x:String>HONDURAS (504)</x:String>
+                    <x:String>EL SALVADOR (503)</x:String>
+                    <x:String>GUATEMALA (502)</x:String>
+                    <x:String>NICARAGUA (505)</x:String>
+                    <x:String>COSTA RICA (506)</x:String>
+                    <x:String>PANAMÁ (507)</x:String>
+                    <x:String>BELICE (501)</x:String>
+                    <x:String>MÉXICO(52)</x:String>
+                    <x:String>CANADÁ (1)</x:String>
+                    <x:String>ESTADOS UNIDOS (1)</x:String>
+                </Picker.Items>
+            </Picker>
+
             <Entry x:Name="Nota" Placeholder="Ingrese una Nota"  />
             <Button  x:Name="btnproceso" Text="Salvar Contacto" Clicked="btnproceso_Clicked"  />
             
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

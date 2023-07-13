@@ -14,7 +14,7 @@ namespace ExamenRadSuanyIngris.Model
         public string Nombres { get; set; }
         [MaxLength(100), NotNull]
         public string Apellidos { get; set; }
-        [MaxLength(3)]
+        [MaxLength(3), NotNull]
         public int Edad { get; set; }
         [MaxLength(100), NotNull]
         public string Pais { get; set; }

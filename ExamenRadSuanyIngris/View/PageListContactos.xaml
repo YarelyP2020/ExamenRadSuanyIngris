@@ -16,7 +16,8 @@
         <CollectionView x:Name="listacontacto">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-
+                    
+                    
                     <Grid Padding="10">
 
                         <Grid.RowDefinitions>

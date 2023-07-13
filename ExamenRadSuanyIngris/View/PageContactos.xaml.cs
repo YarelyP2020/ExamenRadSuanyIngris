@@ -57,7 +57,7 @@ namespace ExamenRadSuanyIngris.View
                 await DisplayAlert("ALERTA", "DEBES ESCRIBIR UN TELEFONO", "OK");
                 Edad.Focus();
             }
-            else if (Pais.Text == null)
+            else if (Pais.SelectedItem == null)
             {
                 await DisplayAlert("ALERTA", "DEBES ESCRIBIR UN PAIS", "OK");
                 Pais.Focus();
@@ -77,7 +77,7 @@ namespace ExamenRadSuanyIngris.View
                     Nombres = Nombres.Text,
                     Apellidos = Apellidos.Text,
                     Edad = Convert.ToInt32(Edad.Text),
-                    Pais = Pais.Text,
+                    Pais = Pais.SelectedItem.ToString(),
                     Nota = Nota.Text,
                     Imagen = GetImageToBytes()
                 };
@@ -117,7 +117,7 @@ namespace ExamenRadSuanyIngris.View
             Apellidos.Text = "";
             Edad.Text = "";
 
-            Pais.Text = ""; Nota.Text = "";
+            Pais.SelectedIndex = -1; Nota.Text = "";
 
         }
 
