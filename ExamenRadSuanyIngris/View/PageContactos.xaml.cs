@@ -97,7 +97,7 @@ namespace ExamenRadSuanyIngris.View
 
             }
         }
-        private async void btnImagenClicked(object sender, EventArgs e)
+        private async void btnImagen_Clicked(object sender, EventArgs e)
         {
             photo = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
             {
