@@ -25,7 +25,7 @@ namespace ExamenRadSuanyIngris.Controller
         {
             if (Contacto.Id == 0)
             {
-                return _connection.UpdateAsync(Contacto); 
+                return _connection.InsertAsync(Contacto); 
                 
             }
             else
