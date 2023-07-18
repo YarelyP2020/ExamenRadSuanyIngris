@@ -25,11 +25,12 @@ namespace ExamenRadSuanyIngris.Controller
         {
             if (Contacto.Id == 0)
             {
-                return _connection.InsertAsync(Contacto);
+                return _connection.UpdateAsync(Contacto); 
+                
             }
             else
             {
-                return _connection.UpdateAsync(Contacto);
+             return _connection.UpdateAsync(Contacto);
             }
         }
         public Task<List<Model.ClassContactos>> GetAllContacto()

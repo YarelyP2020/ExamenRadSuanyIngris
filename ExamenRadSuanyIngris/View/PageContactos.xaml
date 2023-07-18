@@ -4,7 +4,8 @@
              x:Class="ExamenRadSuanyIngris.View.Page1">
     <ContentPage.Content>
         <StackLayout>
-         
+
+            <Entry x:Name="Id" IsVisible="False"/>
             <Image x:Name="Imagen" WidthRequest="50" HeightRequest="200" BackgroundColor="AliceBlue" />
 
             <Button x:Name="btnImagen" Text="Capturar imagen" Clicked="btnImagen_Clicked" />
@@ -31,6 +32,7 @@
 
             <Entry x:Name="Nota" Placeholder="Ingrese una Nota"  />
             <Button  x:Name="btnproceso" Text="Salvar Contacto" Clicked="btnproceso_Clicked"  />
+            <Button  x:Name="btnactualizar" Text="Actualizar Contacto" Clicked="btnactualizar_Clicked" IsVisible="False"/>
             
 
         </StackLayout>

@@ -35,5 +35,11 @@ namespace ExamenRadSuanyIngris.View
             var page = new View.Page1();
             Navigation.PushAsync(page);
         }
+
+        private void ToolbarItem_Clicked_1(object sender, EventArgs e)
+        {
+            var page = new View.Pagemaps();
+            Navigation.PushAsync(page);
+        }
     }
 }

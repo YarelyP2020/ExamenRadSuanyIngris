@@ -9,6 +9,7 @@
     </ContentPage.Resources>
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Agregar Contacto" Clicked="ToolbarItem_Clicked"></ToolbarItem>
+        <ToolbarItem Text="Ver Mapa" Clicked="ToolbarItem_Clicked_1"></ToolbarItem>
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>

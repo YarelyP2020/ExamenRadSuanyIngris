@@ -121,5 +121,9 @@ namespace ExamenRadSuanyIngris.View
 
         }
 
+        private void btnactualizar_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
